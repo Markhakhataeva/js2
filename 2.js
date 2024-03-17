@@ -67,7 +67,7 @@ console.log(n)
     }
     return result;
  }
- const squares=squareArray([3,5,6])
+ const squares=squareArray([3,5])
 
 
  console.log(squares)
@@ -129,7 +129,13 @@ if(Age<18){
 //2js
 
 
-let= ["я не поняла это задание"]
+let vv=prompt("")
+
+if(vv=prompt("")){
+    console.log("строка не пуста")
+}else{
+    console.log("строка пуста")
+}
 
 
 //функция
@@ -143,4 +149,51 @@ function sum (a,b){
 const result = sum( 10,10)
 console.log(result)
 
-//////я дальше не поняла /'_'///
+//функция2
+
+
+function printnumber (n){
+    for(let i=1; i <= n; i++){
+        console.log(i)
+    }
+}
+printnumber(5)
+
+
+//функция3
+
+function raz (a,b){
+    return console.log (a - b)
+}
+
+ raz( 10,10)
+
+
+
+ function pr(a,b){
+    return console.log (a * b)
+}
+
+ pr( 10,10)
+
+ function ch (a,b){
+    return console.log (a / b)
+}
+
+ch( 10,10)
+
+
+
+//функция4
+
+
+
+function printmassiv(mas){
+    const result=[]
+    for( let i=2;i<mas.length ;i++){
+       result.push(mas[i])
+    }
+    return result;
+}
+const gbgb = printmassiv([2,5,8,9])
+console.log(gbgb)
